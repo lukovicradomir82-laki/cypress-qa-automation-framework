@@ -102,4 +102,3 @@ Selectors in `LoginPage.ts` / `HomePage.ts` use placeholder `data-testid` attrib
 
 ---
 Built as a reusable starting point for freelance/consulting QA automation projects.
-# cypress-qa-automation-framework
