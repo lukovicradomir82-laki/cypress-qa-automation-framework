@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "lib": ["ES2021", "DOM"],
+    "types": ["cypress", "node", "@cypress/grep"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@pages/*": ["cypress/pages/*"],
+      "@fixtures/*": ["cypress/fixtures/*"]
+    }
+  },
+  "include": ["cypress/**/*.ts", "cypress.config.ts"]
+}
